@@ -1,10 +1,14 @@
-# darkmotions
+### DarkMotions
 
-Train
+##Train
+'''
 python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
+'''
 
-Test
+##Test
+'''
 python test.py --input_dir test_dataset --weight_dir weight/Epoch99.pth --test_dir test_output
+'''
 
 The stands as an modified adaption of [1] and [2] with our innovation.
 
