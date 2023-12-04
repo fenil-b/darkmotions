@@ -1,11 +1,11 @@
 # DarkMotions
 
-###Train
+### Train
 ```
 python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
 ```
 
-###Test
+### Test
 ```
 python test.py --input_dir test_dataset --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
